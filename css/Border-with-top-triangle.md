@@ -42,6 +42,7 @@ border-bottom: 100px solid transparent;
 ```
 - left border 제외한 나머지 border가 투명해지므로 빨간색 컬러의 ▶ 화살표 만들어진다.
 <br>
+
 ## 가상요소(:before, :after) 로 말풍선 만들기
 
 - 사각형(메세지 박스) + 삼각형
