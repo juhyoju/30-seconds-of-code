@@ -20,6 +20,7 @@
 - div 박스의 width, height 값을 0으로 설정하면 빈 공간이 없이 상하좌우 딱지 모양으로  border 두께가 가득 채워지게 된다.  
 - ~~하지만 이 문제는 box-sizing 으로 해결할 수 있다~~
 <br>
+
 ## border로 ▲ 만들기
 - **transparent** : 투명하게
 ```css
