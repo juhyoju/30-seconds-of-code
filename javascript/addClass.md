@@ -15,10 +15,13 @@ const addClass = (element, className) => element.classList.add(className);
  - 엘리먼트의 클래스 목록에 접근하는 방식을 대체하는 간편한 방법
 
  ### classList 메소드
- 
->classList.add('classA')  : 클래스 하나 추가
+
+```javascript
+classList.add('classA')  : 클래스 하나 추가
 classList.add('classA', 'classB', 'classC',)  : 클래스 여러개 추가
 classList.remove('ClassD') : 클래스 하나 삭제
+```
+
 
 <br>
 
