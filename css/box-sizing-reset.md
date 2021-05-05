@@ -34,8 +34,13 @@ div {
 ```
 
 #### 결과
+![image](https://user-images.githubusercontent.com/47467774/117139112-d3a7b980-ade6-11eb-9f6f-ede912798e2c.png)
+
 **content-box** : width 160px / height 160px
 > 가로값 : 100px  + 20px (좌측 패딩) + 20px (우측 패딩) + 10px (좌측 보더) + 10px (우측 보더)
+> 
+
+
 > 박스 바깥 쪽으로 보더가 생성되어 크기가 확장됨
 
  **border-box** : width 100px / height 100px
