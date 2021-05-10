@@ -32,7 +32,9 @@
 	border-radius:25%;
  }
 ```
-- 각 div 박스의 테두리가 10px, 25% 씩 둥글게 적용된다.
+- 각 div 박스의 테두리가 10px, 25% 씩 둥글게 적용된다.  
+
+![image](https://user-images.githubusercontent.com/47467774/117663325-84dd9380-b1db-11eb-9267-7f8aa067ad30.png)
 
 
 <br>
@@ -53,7 +55,10 @@
  }
 ```
 - border박스 : 왼쪽 위 25px, 오른쪽 위 100px, 오른쪽 아래 10px, 왼쪽 아래 50px 만큼 둘글게 적용된다.
-- borderSame 박스 : 왼쪽 위 / 오른쪽 아래 50px, 오른쪽 위 / 왼쪽 아래 0 
+- borderSame 박스 : 왼쪽 위 / 오른쪽 아래 50px, 오른쪽 위 / 왼쪽 아래 0   
+
+![image](https://user-images.githubusercontent.com/47467774/117663484-ab033380-b1db-11eb-8b55-167bc643a5e7.png)
+
 
 <br>
 
@@ -67,4 +72,6 @@
 	border-radius:50%;
  }
 ```
-- 상하좌우 같은 값의 둥글기가 적용되므로 원형이 완성된다.
+- 상하좌우 같은 값의 둥글기가 적용되므로 원형이 완성된다.  
+
+![image](https://user-images.githubusercontent.com/47467774/117663540-b9e9e600-b1db-11eb-8ad1-72448f298199.png)
