@@ -39,7 +39,7 @@ console.log(array.some(even));
 
 
 
-## ❗❗ 차이
+## ❗❗ 확인
 [Array.prototype.every()](https://github.com/juhyoju/30-seconds-of-code/blob/master/javascript/all.md)
 
 Array 객체의 every() 와 some () 메서드는 모든 원소에 대해 실행하지 않는다.  
