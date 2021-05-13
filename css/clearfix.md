@@ -23,6 +23,9 @@
 
 ## clearfix의 네 가지 방법
 - 부모 요소 안의 자식 요소를 가로로 배치하게 될 때 (float) 부모 요소의 높이를 인식하지 못하는 오류를 해결하기 위한 방법
+![image](https://user-images.githubusercontent.com/47467774/118121695-d03ab080-b42c-11eb-974d-031994e853a2.png)
+
+▲ 부모 박스의 높이가 0px로 영역이 잡히지 않음
 
 <br>
 
