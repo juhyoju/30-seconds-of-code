@@ -69,9 +69,9 @@ const average = result / arr.length;
 document.writeln(average); // 2
 ```
 1. reduce() 함수를 사용하여 배열의 합계를 구한다.
-2. reduce() 함수의 파라미터로 전달되는 callback 함수는 누적값(sum), 현재 처리중인 배열의 element(currValue)를 파라미터로 받습니다. 
-3. 누적값과 currValue의 합을 리턴하면, 배열의 다음값을 처리할 때, 이 리턴된 값이 callback 함수의 누적값(sum)으로 전달됩니다. 
-4. 초기값은 0으로 지정하였습니다.
+2. reduce() 함수의 파라미터로 전달되는 callback 함수는 누적값(sum), 현재 처리중인 배열의 element(currValue)를 파라미터로 받는다. 
+3. 누적값과 currValue의 합을 리턴하면, 배열의 다음값을 처리할 때, 이 리턴된 값이 callback 함수의 누적값(sum)으로 전달된다. 
+4. 초기값은 0으로 저장한다.
 5. reduce() 함수를 사용하여 배열 element의 합을 구하고, 그 결과를 배열의 길이로 나누어서 배열 element의 평균값을 계산한다.
 
   
