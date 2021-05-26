@@ -25,7 +25,7 @@ window.scrollY()
 
 ##### pageYOffset 속성은 scrollY의 다른 이름
 ```
-window.pageYOffset === window.scrollY; // 항상 true`
+window.pageYOffset === window.scrollY; // 항상 true
 ```
 
 
@@ -43,6 +43,9 @@ Element.scrollHeight()
 - **margin, border, scrollbar** 제외
 -  `::before`,  `::after` 등 의사 요소의 높이 포함
 
+![image](https://user-images.githubusercontent.com/47467774/119631227-a5982100-be4a-11eb-82dd-3c1226709238.png)
+
+
 
 ## clientHeight
 ```javascript
@@ -51,6 +54,9 @@ Element.clientHeight()
 - 눈에 보이는 만큼의 **컨텐츠의 높이**
 - **padding** 포함
 - **margin, border, scrollbar** 제외
+
+![image](https://user-images.githubusercontent.com/47467774/119631129-91542400-be4a-11eb-8845-dc694da46bc7.png)
+
  
 
  ## offsetHeight
@@ -63,3 +69,8 @@ element.offsetHeight()
 - css로 요소의 높이를 지정할 때 정해지는 높이값
 -  `box-sizing` 속성에 따라 padding과 border 값이 제외될 수 있으므로 주의 필요
 - 요소가 감춤 상태의 경우 offsetHeight는 0을 반환
+
+![image](https://user-images.githubusercontent.com/47467774/119631053-7e415400-be4a-11eb-9c0f-902fd6c3ab4d.png)
+
+--이미지출처 : https://developer.mozilla.org/ --
+
