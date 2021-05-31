@@ -85,7 +85,7 @@ Grid 를 사용하여 부모 요소 내에서 자식 요소를 수평 및 수직
 	background:#eee;
 	height:200px;
 }
-```
+``` 
 
 ![image](https://user-images.githubusercontent.com/47467774/119782520-3fbd9f00-bf07-11eb-845a-0fb226df9f58.png)
 
