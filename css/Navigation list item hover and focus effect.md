@@ -47,3 +47,7 @@ transform: scale( 2.0, 1.5 ); /* 가로 2배, 세로 1.5배 확대 */
 transform: scaleX( 2.0 ); /* 가로 2배 확대 */
 transform: scaleY( 1.5 ); /* 세로 1.5배 확대 */
 ```
+
+##### 결과 
+![image](https://user-images.githubusercontent.com/47467774/121155468-cae15200-c882-11eb-8bc6-d9fad4741509.png)
+
