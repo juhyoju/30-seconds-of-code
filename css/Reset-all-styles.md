@@ -13,7 +13,9 @@
 ```
 
 #### 기본 스타일
+![image](https://user-images.githubusercontent.com/47467774/122167890-8b37ed00-ceb6-11eb-9868-468429b2417c.png)
 
+<br>
 
 
 ## all 속성
@@ -25,8 +27,11 @@
 - **inherit**  : 요소의 모든 속성을 **상속값** 으로 변경
 - **unset** : 요소의 모든 속성을, 속성이 값을 상속하는 경우 상속값으로, 아니면 초깃값으로 변경
 
+<br>
 
 ## 결과
 ```css
 h1, h2, div, hr, ul, li { all:unset; }
 ```
+
+![image](https://user-images.githubusercontent.com/47467774/122167945-9c80f980-ceb6-11eb-8eb5-20daa55b505d.png)
