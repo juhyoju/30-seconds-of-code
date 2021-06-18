@@ -32,6 +32,9 @@ p {
 - `pre-wrap` : 공백을 코드에 있는 그대로 표시 (코드에 줄바꿈이 없어도 자동으로 줄바꿈을 실행)
 - `pre-line` : 공백을 여러개 넣어도 1개로 처리 (코드에 줄바꿈이 없어도 자동으로 줄바꿈을 실행하며 코드에 줄바꿈이 있을 때도 그대로 실행)
 
+#### 결과
+![image](https://user-images.githubusercontent.com/47467774/122534093-28cd2100-d05d-11eb-8a8f-bb797a236e58.png)
+
 
 <br>
 
@@ -54,4 +57,8 @@ p {
 #### -webkit-line-clamp
 ✅ webkit 엔진을 사용하지 않는 브라우저를 위한 속성  
 line-height 속성과 height 속성을 이용하여 높이를 계산하여 적용  (height = line-height * 줄수)
+
+#### 결과
+![image](https://user-images.githubusercontent.com/47467774/122534128-31bdf280-d05d-11eb-9a6d-eb62b7680c09.png)
+
 
