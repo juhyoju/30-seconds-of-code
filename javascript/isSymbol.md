@@ -7,7 +7,7 @@ const  isSymbol = val  =>  typeof  val === 'symbol';
   
 
 ## typeof
-피연산자의 평가 전 자료형을 나타내는 문자열을 반환한다.
+피연산자의 평가 전 자료형을 나타내는 문자열을 반환한다.  
 typeof 연산자는 피연산자 앞에 존재한다.
 
 ```javascript
