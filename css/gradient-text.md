@@ -12,6 +12,12 @@ h1 {
 }
 ```
 
+#### 그라데이션 결과
+![image](https://user-images.githubusercontent.com/47467774/122717142-2ad5f080-d2a6-11eb-9735-28bcdfefb9f2.png)
+
+
+<br>
+
 ## background : linear-gradient
 텍스트 요소에 그라데이션 배경을 제공한다.  
 
@@ -24,6 +30,7 @@ background : linear-gradient(45deg, blue, red);
 background : linear-gradient(to left top, blue, red);
 background : linear-gradient(to right, yellow 50%, red, purple, blue);
 ```
+![image](https://user-images.githubusercontent.com/47467774/122717193-3cb79380-d2a6-11eb-8848-4d58e5476524.png)
 
 
 ## -webkit-background-clip
