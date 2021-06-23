@@ -18,7 +18,7 @@ button에 마우스 오버 시 0.8배 축소되는 애니메이션 효과
 }
 ```
 
-## transform: scale
+## transform: scale()
  - X 또는 Y축으로 확대/ 축소  
 ```css
 transform:scaleX( x축 비율 ); // x축으로 확대, 축소
@@ -46,3 +46,4 @@ div {
 ```
 
 ##### 결과
+![image](https://user-images.githubusercontent.com/47467774/123061939-0bc29480-d447-11eb-91c8-b8ba06c35dad.png)
