@@ -1,0 +1,50 @@
+
+## React Hooks
+- Hook은 React 버전 16.8에 새로 추가되었다.
+- class component, did mount, render ... 를 하지 도 된다 (▶ 하나의 function이 됨)
+- Hook을 사용해 Class 없이 함수만으로 state를 처리할 수 있다.
+- functional component에서 state를 가질 수 있게 해준다.
+
+
+## class component
+- 코드가 길고 복잡하다.
+- High-Order Components(HOC)로 컴포넌트 자체를 재사용 할 수는 있지만 logic의 재사용이 어렵다.
+
+
+```js
+class App extends Component {
+	state = {
+		count:0;
+	};
+	modify = n => {
+		this.setState({
+			count: n
+		});
+	};
+	render() {
+		const { count } = this.state;
+		return {
+			<>
+				<div>{count}</div>
+				<button onCLick={() => this.modify(count + 1}>Increment</button>
+			</>
+		}
+	}
+}
+```
+
+## hooks (functional component로 변경)
+클래스 벗어나서 함수에 머물 수 있으며, this를 안하는 방법  
+❗❗ 리액트 hooks를 이용하면 매우 간단하다!
+
+```js
+const App = () => {
+	const [ count, setCount ] = useState(0);
+	return (
+		<>
+			{count}
+			<button onClick={() => setCount(count + 1}>Increment<button>
+		</>
+	);
+}
+```
