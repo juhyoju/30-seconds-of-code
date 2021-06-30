@@ -140,6 +140,7 @@ console.log(f.call({foo: 'hi'})); // 'hi'
 ```
 
 <br>
+
 - apply() : 인수 목록을 받는다.
 - call() : 인수 배열을 받는다.
 
