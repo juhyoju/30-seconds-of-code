@@ -1,4 +1,4 @@
-## isNumber
+## isFunction
 
 인자가 함수인지 판별한다.
 
