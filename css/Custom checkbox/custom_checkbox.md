@@ -47,3 +47,9 @@
 4. input 요소는 숨기고 `label` 을 사용하여 체크 박스와 텍스트가 보이도록 한다.
 5. `stroke-dashoffset` 사용하여 체크 기오에 애니메이션 효과를 준다.
 6. `transform: scale(0.9)` css를 추가하여 줌 애니메이션 효과를 낸다.
+
+
+### 결과 
+![image](https://user-images.githubusercontent.com/47467774/130029408-0907edea-22cf-4d27-a0b2-c2750dbba2fa.png)
+
+
