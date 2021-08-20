@@ -27,3 +27,6 @@
 7. 메뉴 항목을 수직 정렬하기 위해 `display:flex`를 사용한다.
 
 ### 결과
+![image](https://user-images.githubusercontent.com/47467774/130174146-17b9d2ed-37a2-4cdd-a5d1-0726c0164637.png)     ![image](https://user-images.githubusercontent.com/47467774/130174165-c5afe2df-3112-438b-b766-bc7864032206.png)
+
+
