@@ -21,7 +21,7 @@
 
 > ### Big-O
 >
-> Worst case : O(n2)
+> Worst case : O(n2)  
 > Best case : O(n2)
 
 <br>
