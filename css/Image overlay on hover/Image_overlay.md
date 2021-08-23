@@ -22,3 +22,8 @@
 3. 오버레이 텍스트를 `<figcaption>`을 사용한다.
 4. figcaption의 위치를 `flex:display; flex-direction:column; justify-content:center`로 세팅하여 이미지 중앙에 오도록 한다.
 5. `:hover` 선택자로 모든 요소의 불투명도, 변환되는 것을 원하는 애니메이션 효과를 통해 보여준다.
+  
+### 결과
+![image](https://user-images.githubusercontent.com/47467774/130455843-5737c4f5-3648-4fe2-8380-9a07f2a7d3b6.png)   ![image](https://user-images.githubusercontent.com/47467774/130455891-91baef8c-c5f1-4d9d-8e86-596e36ddf96f.png)
+
+
