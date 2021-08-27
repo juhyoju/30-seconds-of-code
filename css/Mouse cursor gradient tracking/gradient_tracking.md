@@ -86,7 +86,7 @@ css 스타일 선언 객체의 속성에 대해 새 값을 설정한다.
 `style.setProperty(propertyName, value, priority);`
 
 - propertyName : 수정할 CSS 속성 이름을 나타내는 DOM 문자열
-- value : 새 속성을 포함하는 DOM 문자열로 지정하지 않으면 빈 문자열로 처리된다.
+- value : 새 속성을 포함하는 DOM 문자열로 지정하지 않으면 빈 문자열로 처리된다.  
   (❗ !important 포함되면 안됨 - 우선순위 매개변수를 사용하여 설정해야 한다.)
 - priority : 중요한 우선순위를 설정할 수 있고 지정하지 않으면 빈 문자열로 처리된다.
 
@@ -105,3 +105,11 @@ style.cssPropertyName = "value";
 3. `background: radial-gradient(circle closest-side, pink, transparent);` 를 이용하여 적절한 위치에 그라데이션을 만든다.
 4. `Document.querySelector()` 와 `EventTarget.addEventListener()` 를 이용하여 `mousemove` 이벤트 처리기를 등록한다.
 5. `Element.getBoundingClientRect()` 와 `CSSStyleDeclaration.setProperty()` 를 이용하여 `--x`, `--y`의 css 변수의 값을 바꿔준다.
+
+### 결과
+
+![image](https://user-images.githubusercontent.com/47467774/131077097-e58e355b-d359-4637-a1db-35555a91132e.png)  ![image](https://user-images.githubusercontent.com/47467774/131077120-4d1ccc66-ce0d-48aa-80c4-da1f4e354741.png)  ![image](https://user-images.githubusercontent.com/47467774/131077167-53de4dc1-ae71-42e3-bed8-4b11e16f7357.png)  ![image](https://user-images.githubusercontent.com/47467774/131077199-c8db4e88-cdc2-4aa7-a99c-d03a7c48c2f6.png)
+
+
+
+
