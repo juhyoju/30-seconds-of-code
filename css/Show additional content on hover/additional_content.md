@@ -22,3 +22,6 @@
 3. 마우스 오버 / 포커스에 전환 효과를 적용하기 위해 `transition:0.3s all ease`를 설정한다.
 
 ### 결과
+![image](https://user-images.githubusercontent.com/47467774/131273710-0ced57f6-1875-4626-bf16-2d9fd5037579.png)  ![image](https://user-images.githubusercontent.com/47467774/131273722-306115a7-10a9-42b2-97df-b3630602f3d2.png)
+
+
