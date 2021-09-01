@@ -23,8 +23,8 @@
 #### 예
 
 ```css
-grid-template-columns: 200px 200px 500px; // column을 200px 200px 500px 로 세조각으로 나눔
-grid-template-columns: 1fr 1fr 1fr; // 숫자 비율대로 크기를 나눔 (1:1:1 비율로 3 column)
+grid-template-columns: 200px 200px 500px; /* column을 200px 200px 500px 로 세조각으로 나눔 */
+grid-template-columns: 1fr 1fr 1fr; /* 숫자 비율대로 크기를 나눔 (1:1:1 비율로 3 column) */
 ```
 
 <br>
@@ -34,8 +34,8 @@ grid-template-columns: 1fr 1fr 1fr; // 숫자 비율대로 크기를 나눔 (1:1
 위치를 정해주지 않고 상대적으로 자식 그리드의 크기만 설정할 때
 
 ```css
-grid-column: span 2; // 가로로 두 그리드 차지
-grid-row: span 2; // 세로로 두 그리드 차지
+grid-column: span 2; /* 가로로 두 그리드 차지 */
+grid-row: span 2; /* 세로로 두 그리드 차지 */
 ```
 
 > ⚠ Internet Explorer 지원하지 않음
@@ -47,3 +47,13 @@ grid-row: span 2; // 세로로 두 그리드 차지
 1. 반응형 레이아웃을 만들기 위해 `display:grid` 를 사용한다.
 2. `grid-row: span 2 / auto` 와 `grid-column: span 2 / auto`를 이용하여 각각 2행 또는 2열에 걸치도록 아이템을 만든다.
 3. 작은 크기의 화면에서는 적용되지 않도록 `미디어쿼리`로 이전 스타일을 감싼다.
+
+<br>
+
+### 기본 결과
+![image](https://user-images.githubusercontent.com/47467774/131639364-c9c62fff-6446-4144-9581-d27b7bc6d165.png)
+
+
+#### 작은 화면(600px) 미디어쿼리 적용
+![image](https://user-images.githubusercontent.com/47467774/131639671-624c7326-6e50-4bc8-911e-ed6820237c02.png)
+
