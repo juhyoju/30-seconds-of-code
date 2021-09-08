@@ -39,7 +39,7 @@ animation-direction: unset;
 
 - `animation-direction: normal;` : 매 사이클마다 정방향으로 재생 (기본값)
 - `animation-direction: reverse;` : 역방향으로 재생. 즉, 애니메이션 단계가 거꾸로 수행되고 타이밍 기능 또한 반대로 재생
-- ``animation-direction: alternate;` : 매 사이클마다 각 주기의 방향을 뒤집으며 첫 번째 반복은 정방향으로 진행한다. 사이클이 짝수/홀수인지 결정하는 카운트에서 하나가 시작된다.
+- `animation-direction: alternate;` : 매 사이클마다 각 주기의 방향을 뒤집으며 첫 번째 반복은 정방향으로 진행한다. 사이클이 짝수/홀수인지 결정하는 카운트에서 하나가 시작된다.
 
 <br>
 
