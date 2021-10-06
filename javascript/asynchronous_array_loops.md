@@ -1,7 +1,6 @@
 ## Asynchronous array loops in JavaScript
 
-비동기식 운영은 많은 개발자들을 곤경에 빠뜨리는 것 같다. 이는 특히 어레이에 대한 루핑과 결합될 때 그렇습니다.
-각 옵션을 사용할 수 있는 몇 가지 주의사항이 있기 때문입니다.
+비동기식 운영은 각 옵션마다 몇 가지 주의사항이 있다.
 
  <br>
 
@@ -23,7 +22,7 @@ array.forEach((item) => {
 });
 ```
 
-개발 진행 시 배열 안에서 item에 대한 비동기 처리가 필요한 경우가 발생할 때 버그가 발생할 수 있음  
+개발 진행 시 배열 안에서 item에 대한 비동기 처리가 필요한 경우 버그가 발생할 수 있음  
 **for, forEach에서는 모든 비동기 작업이 끝나는 것을 대기하지 않음**
 
 <br>
@@ -70,8 +69,8 @@ uppercaseItems(); // logs: 'A', 'B', 'C', 'Items processed'
 - 일반적으로 순차적으로 실행하겠다는 propmise을 원하는 경우가 드물기 때문에 이 솔루션이 가장 선호하는 솔루션이다.
 
 ```js
-const asyncUppercase = (item) =>
-  new Promise((resolve) =>
+const asyncUppercase = item =>
+  new Promise(resolve =>
     setTimeout(
       () => resolve(item.toUpperCase()),
       Math.floor(Math.random() * 1000)
@@ -79,17 +78,16 @@ const asyncUppercase = (item) =>
   );
 
 const uppercaseItems = () => {
-  const items = ["a", "b", "c"];
+  const items = ['a', 'b', 'c'];
   return Promise.all(
-    items.map(async (item) => {
+    items.map(async item => {
       const uppercaseItem = await asyncUppercase(item);
       console.log(uppercaseItem);
     })
   ).then(() => {
-    console.log("Items processed");
+    console.log('Items processed');
   });
-};
-// logs: 'A', 'C', 'B', 'Items processed'
+}; // logs: 'A', 'C', 'B', 'Items processed'
 ```
 
 <br>
